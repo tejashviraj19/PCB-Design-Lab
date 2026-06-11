@@ -39,7 +39,7 @@ The PCB is designed in a compact circular form factor suitable for embedded hard
 
 # 📷 PCB Layout
 
-![PCB Layout](./Pcb_layout.png)
+![PCB Layout](ATtiny85-Smart-Diya/Pcb_layout.png)
 
 ---
 
