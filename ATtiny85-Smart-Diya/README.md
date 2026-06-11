@@ -39,7 +39,7 @@ The PCB is designed in a compact circular form factor suitable for embedded hard
 
 # 📷 Schematic
 
-![Schematic](ATtiny85-Smart-Diya/Schematic.png)
+![Schematic](PCB-Design-Lab/ATtiny85-Smart-Diya/Schematic.png)
 
 ---
 
