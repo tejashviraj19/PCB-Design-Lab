@@ -37,27 +37,27 @@ The PCB is designed in a compact circular form factor suitable for embedded hard
 
 ---
 
-# 📷 PCB Layout
-
-![PCB Layout](ATtiny85-Smart-Diya/Pcb_layout.png)
-
----
-
 # 📷 Schematic
 
 ![Schematic](ATtiny85-Smart-Diya/Schematic.png)
 
 ---
 
-# 📷 Gerber Preview
+# 📷 PCB Layout
 
-![Gerber Preview](ATtiny85-Smart-Diya/gerber_preview.png)
+![PCB Layout](ATtiny85-Smart-Diya/Pcb_layout.png)
 
 ---
 
 # 📷 3D PCB View
 
 ![3D PCB View](ATtiny85-Smart-Diya/pcb_3d.png)
+
+---
+
+# 📷 Gerber Preview
+
+![Gerber Preview](ATtiny85-Smart-Diya/gerber_preview.png)
 
 ---
 
