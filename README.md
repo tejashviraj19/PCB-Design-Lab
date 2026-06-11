@@ -45,19 +45,19 @@ The PCB is designed in a compact circular form factor suitable for embedded hard
 
 # 📷 Schematic
 
-![Schematic](./Schematic.png)
+![Schematic](ATtiny85-Smart-Diya/Schematic.png)
 
 ---
 
 # 📷 Gerber Preview
 
-![Gerber Preview](./gerber_preview.png)
+![Gerber Preview](ATtiny85-Smart-Diya/gerber_preview.png)
 
 ---
 
 # 📷 3D PCB View
 
-![3D PCB View](./pcb_3d.png)
+![3D PCB View](ATtiny85-Smart-Diya/pcb_3d.png)
 
 ---
 
@@ -81,7 +81,7 @@ The PCB is designed in a compact circular form factor suitable for embedded hard
 
 Open Here:
 
-[KiCad_Files](./KiCad_Files)
+[KiCad_Files](ATtiny85-Smart-Diya/KiCad_Files)
 
 Contains:
 
@@ -95,7 +95,7 @@ Contains:
 
 Open Here:
 
-[Gerber_Files](./Gerber_Files)
+[Gerber_Files](ATtiny85-Smart-Diya/Gerber_Files)
 
 Fabrication package:
 
