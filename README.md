@@ -6,7 +6,7 @@ Collection of PCB Design projects and hardware experiments.
 
 | Project | Description |
 |----------|-------------|
-| ATtiny85 Smart Diya | Sound and light reactive PCB using ATtiny85 |
+| [ATtiny85 Smart Diya](./ATtiny85-Smart-Diya) | Sound and light reactive PCB using ATtiny85 |
 
 ## Tools
 
