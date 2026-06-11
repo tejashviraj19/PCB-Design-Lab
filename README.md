@@ -1,74 +1,105 @@
 # 🪔 ATtiny85 Smart Diya
 
-A compact PCB-based smart diya designed using KiCad and ATtiny85. The circuit uses an LDR and condenser microphone to detect light and sound conditions and control an LED output.
+A compact sound and light reactive PCB designed using **KiCad** and **ATtiny85**.
+
+This project demonstrates the complete PCB design workflow including schematic capture, PCB layout, routing, Gerber generation, and 3D visualization.
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates the complete PCB design workflow:
+The Smart Diya uses:
 
-- Schematic Design
-- PCB Layout
-- Routing
-- Gerber Generation
-- 3D PCB Visualization
+- ATtiny85 Microcontroller
+- LDR (Light Dependent Resistor)
+- Condenser Microphone
+- 5mm Yellow LED
+- Coin Cell Battery (3.3V)
+- SPDT Switch
 
-Designed using **KiCad** as part of my PCB Design Lab repository.
+The PCB is designed in a compact circular form factor suitable for embedded hardware demonstrations and PCB design practice.
+
+---
+
+## ✨ Features
+
+✅ Circular PCB Design
+
+✅ Light Detection using LDR
+
+✅ Sound Detection using Condenser Microphone
+
+✅ Compact Battery Powered Circuit
+
+✅ Complete KiCad Design Files Included
+
+✅ Gerber Files Ready for Fabrication
+
+---
+
+# 📷 PCB Layout
+
+![PCB Layout](./Pcb_layout.png)
+
+---
+
+# 📷 Schematic
+
+![Schematic](./Schematic.png)
+
+---
+
+# 📷 Gerber Preview
+
+![Gerber Preview](./gerber_preview.png)
+
+---
+
+# 📷 3D PCB View
+
+![3D PCB View](./pcb_3d.png)
 
 ---
 
 ## 🔧 Components Used
 
-- ATtiny85 Microcontroller
-- 5mm LDR
-- Condenser Microphone
-- 5mm Yellow LED
-- Resistors
-- SPDT Switch
-- 3.3V Coin Cell Battery
-
----
-
-## 📷 Schematic
-
-![Schematic](Schematic.png)
-
----
-
-## 📷 PCB Layout
-
-![PCB Layout](Pcb_layout.png)
-
----
-
-## 📷 Gerber Preview
-
-![Gerber Preview](gerber_preview.png)
-
----
-
-## 📷 3D View
-
-![3D View](pcb_3d.png)
+| Component | Description |
+|------------|-------------|
+| ATtiny85 | Microcontroller |
+| LDR | Light Sensor |
+| Condenser Microphone | Sound Sensor |
+| Yellow LED | Output Indicator |
+| Resistors | Biasing & Current Limiting |
+| Coin Cell Holder | Power Source |
+| SPDT Switch | ON/OFF Control |
 
 ---
 
 ## 📂 Project Files
 
-### KiCad Files
-Located in:
+### 📁 KiCad Design Files
 
-```text
-KiCad_Files/
-```
+Open Here:
 
-### Gerber Files
-Located in:
+[KiCad_Files](./KiCad_Files)
 
-```text
-Gerber_Files/
-```
+Contains:
+
+- ATtiya85-smart-diya.kicad_pro
+- ATtiya85-smart-diya.kicad_sch
+- ATtiya85-smart-diya.kicad_pcb
+
+---
+
+### 📦 Gerber Files
+
+Open Here:
+
+[Gerber_Files](./Gerber_Files)
+
+Fabrication package:
+
+- Gerber.zip
 
 ---
 
@@ -78,9 +109,14 @@ Gerber_Files/
 - PCB Design
 - PCB Routing
 - Gerber Generation
+- Embedded Hardware Design
 
 ---
 
 ## 👨‍💻 Author
 
-Tejashvi Raj
+**Tejashvi Raj**
+
+Electronics & Communication Engineering (ECE)
+
+PCB Design | Embedded Systems | IoT
