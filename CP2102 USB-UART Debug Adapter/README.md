@@ -71,7 +71,7 @@ A compact USB Type-C to UART converter based on the **CP2102 USB-to-UART Bridge 
 Located in:
 
 ```text
-KiCad_files/
+KiCad_files/https://github.com/tejashviraj19/PCB-Design-Lab/tree/main/CP2102%20USB-UART%20Debug%20Adapter/KiCad_files
 ```
 
 Contains:
@@ -87,7 +87,7 @@ Contains:
 Located in:
 
 ```text
-Gerber_Files/
+Gerber_Files/https://github.com/tejashviraj19/PCB-Design-Lab/tree/main/CP2102%20USB-UART%20Debug%20Adapter/KiCad_files
 ```
 
 Contains the manufacturing-ready Gerber package for PCB fabrication.
