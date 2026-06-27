@@ -1,78 +1,91 @@
-# CP2102 USB-UART Debug Adapter
+# 🔌 CP2102 USB-UART Debug Adapter
 
-A compact USB Type-C to UART converter based on the **CP2102 USB-to-UART Bridge Controller**, designed for programming, debugging, and serial communication with embedded systems such as ESP32, STM32, Arduino, and other UART-enabled microcontrollers.
+A compact USB Type-C to UART Debug Adapter designed using **KiCad** and the **CP2102 USB-to-UART Bridge Controller**.
 
----
-
-## 📌 Features
-
-- USB Type-C interface
-- CP2102 USB-to-UART bridge
-- TX/RX status indication LEDs
-- Reset (RST) output
-- ESD protection on USB data lines
-- Standard 5-pin UART header
-- Compact PCB layout for embedded development
+This project demonstrates the complete PCB design workflow including schematic capture, PCB layout, routing, Gerber generation, and 3D visualization.
 
 ---
 
-## 🛠 Components Used
+## 📌 Project Overview
 
-- CP2102 USB-UART Bridge IC
+The USB-UART Debug Adapter uses:
+
+- CP2102 USB-to-UART Bridge IC
 - USB Type-C Receptacle
-- TX/RX LEDs
+- TX LED
+- RX LED
 - ESD Protection Diodes
-- 100 nF Decoupling Capacitors
-- USB Configuration Resistors
 - 5-Pin UART Header
+- Decoupling Capacitors
+- USB Configuration Resistors
+
+The PCB is designed as a compact USB-to-Serial adapter for programming, debugging, and UART communication with embedded development boards.
 
 ---
 
-## 🔧 Design Workflow
+## ✨ Features
 
-- Schematic Capture using KiCad
-- Footprint Assignment
-- PCB Component Placement
-- Signal Routing
-- Design Rule Check (DRC)
-- Gerber File Generation
-- 3D PCB Verification
+✅ USB Type-C Interface
 
----
+✅ USB-to-UART Serial Communication
 
-## 📷 Schematic
+✅ TX/RX Activity LEDs
 
-![Schematic](Schematic.png)
+✅ ESD Protection on USB Data Lines
 
----
+✅ Compact PCB Design
 
-## 📷 PCB Layout
+✅ Complete KiCad Design Files Included
 
-![PCB Layout](pcb_layout.png)
+✅ Gerber Files Ready for Fabrication
 
 ---
 
-## 📷 Gerber Preview
+# 📷 Schematic
 
-![Gerber Preview](gerber_preview.png)
+![Schematic](./Schematic.png)
 
 ---
 
-## 📷 3D View
+# 📷 PCB Layout
 
-![3D View](pcb_3d.png)
+![PCB Layout](./pcb_layout.png)
+
+---
+
+# 📷 3D PCB View
+
+![3D PCB View](./pcb_3d.png)
+
+---
+
+# 📷 Gerber Preview
+
+![Gerber Preview](./gerber_preview.png)
+
+---
+
+## 🔧 Components Used
+
+| Component | Description |
+|------------|-------------|
+| CP2102 | USB-to-UART Bridge Controller |
+| USB Type-C Connector | USB Interface |
+| LEDs | TX/RX Status Indicators |
+| ESD Diodes | USB Data Line Protection |
+| Capacitors | Power Supply Decoupling |
+| Resistors | USB Configuration & LED Current Limiting |
+| 5-Pin Header | UART Output Interface |
 
 ---
 
 ## 📂 Project Files
 
-### KiCad Files
+### 📁 KiCad Design Files
 
-Located in:
+Open Here:
 
-```text
-KiCad_files/https://github.com/tejashviraj19/PCB-Design-Lab/tree/main/CP2102%20USB-UART%20Debug%20Adapter/KiCad_files
-```
+[KiCad_files](https://github.com/tejashviraj19/PCB-Design-Lab/tree/main/CP2102%20USB-UART%20Debug%20Adapter/KiCad_files)
 
 Contains:
 
@@ -82,35 +95,28 @@ Contains:
 
 ---
 
-### Gerber Files
+### 📦 Gerber Files
 
-Located in:
+Open Here:
 
-```text
-Gerber_Files/https://github.com/tejashviraj19/PCB-Design-Lab/tree/main/CP2102%20USB-UART%20Debug%20Adapter/KiCad_files
-```
+[Gerber_Files](https://github.com/tejashviraj19/PCB-Design-Lab/tree/main/CP2102%20USB-UART%20Debug%20Adapter/Gerber_Files)
 
-Contains the manufacturing-ready Gerber package for PCB fabrication.
+Fabrication package:
 
----
-
-## 🎯 Applications
-
-- ESP32 Programming
-- STM32 Programming
-- UART Debugging
-- Serial Console Interface
-- Embedded System Development
-- Microcontroller Communication
+- Gerber.zip
 
 ---
 
-## 🧑‍💻 Author
+## 🛠 Tools Used
+
+- KiCad
+- PCB Design
+- PCB Routing
+- Gerber Generation
+- Embedded Hardware Design
+
+---
+
+## 👨‍💻 Author
 
 **Tejashvi Raj**
-
-GitHub: https://github.com/tejashviraj19
-
----
-
-⭐ If you found this project useful, consider starring the repository.
